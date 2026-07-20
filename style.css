@@ -76,24 +76,7 @@ body{
 .nav-links a:hover,
 .nav-links a.active{ color: var(--accent-pink); }
 
-.cta-btn{
-  display: inline-block;
-  background: linear-gradient(90deg, #2563eb, #4338ca);
-  color:#fff;
-  text-decoration: none;
-  border:none;
-  padding: 10px 22px;
-  border-radius: 24px;
-  font-weight: 600;
-  font-size: 14px;
-  cursor:pointer;
-  transition: transform .2s ease, box-shadow .2s ease;
-}
 
-.cta-btn:hover{
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(37,99,235,.5);
-}
 
 /* ================= HOME / HERO ================= */
 .page-wrapper{
@@ -102,7 +85,7 @@ body{
   padding: 0 20px;
 }
 
-#home{ scroll-margin-top: 100px; }
+#home{ scroll-margin-top: -70px; }
 
 .hero{
   position: relative;
@@ -210,7 +193,7 @@ body{
 
 /* ================= ABOUT ================= */
 #about{
-  scroll-margin-top: 100px;
+  scroll-margin-top: -60px;
   background: linear-gradient(135deg, #0d0822, #2d1b69, #4b2bbf);
   padding: 60px 0;
 }
@@ -283,7 +266,7 @@ body{
 
 /* ================= SERVICES ================= */
 #services{
-  scroll-margin-top: 100px;
+  scroll-margin-top: -70px;
   padding: 60px 0;
   background:
     radial-gradient(circle at center, rgba(98,76,255,.45) 0%, rgba(98,76,255,.25) 22%, rgba(98,76,255,.10) 40%, transparent 68%),
@@ -341,7 +324,7 @@ body{
 
 /* ================= TEAM ================= */
 #team{
-  scroll-margin-top: 100px;
+  scroll-margin-top: -70px;
   padding-bottom: 40px;
   background:
     radial-gradient(circle at center, rgba(97,73,255,.45) 0%, rgba(97,73,255,.22) 28%, rgba(97,73,255,.08) 45%, transparent 70%),
@@ -398,7 +381,7 @@ body{
 
 /* ================= CONTACT ================= */
 #contact{
-  scroll-margin-top: 100px;
+  scroll-margin-top: -70px;
   padding: 60px 0 0;
   background: linear-gradient(135deg, #0d0822, #1a1140, #05050b);
 }
@@ -439,9 +422,21 @@ body{
   flex-shrink: 0;
 }
 
+
 .icon-box h3{ font-size:20px; color:white; margin-bottom:5px; }
 
-.icon-box p{ color:#d0d0d0; margin:0; }
+.icon-box p{ 
+  color:#d0d0d0; 
+  margin:0; 
+}
+.icon-box a{
+    color:#d0d0d0;
+    text-decoration:none;
+}
+
+.icon-box a:hover{
+    color:#ffffff;
+}
 
 .contact-form input{
   width:100%;
@@ -464,6 +459,23 @@ body{
   background:black;
   color:white;
   cursor:pointer;
+}
+.icon-circle{
+    width:60px;
+    height:60px;
+    background:#303050;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:20px;
+    flex-shrink:0;
+}
+
+.icon-circle img{
+    width:32px;
+    height:32px;
+    object-fit:contain;
 }
 
 footer{ width:100%; color:white; text-align: center; padding:30px 50px; }
