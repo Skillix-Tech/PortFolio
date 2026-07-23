@@ -1,5 +1,5 @@
 :root{
-  --bg-dark: #0a0a12;
+  --bg-dark: #170f38;
   --accent-blue: #2563eb;
   --accent-pink: #d926e0;
   --text-light: #ffffff;
@@ -11,6 +11,7 @@
 
 html{
   scroll-behavior: smooth;
+  
 }
 body{
   padding: top 90px;
@@ -202,6 +203,7 @@ body{
   scroll-margin-top: 30px;
   background: linear-gradient(135deg, #0d0822, #2d1b69, #4b2bbf);
   padding: 60px 0;
+  
 }
 
 .about{
@@ -400,6 +402,7 @@ body{
   width:90%;
   max-width: 1300px;
   margin:50px auto;
+  margin-bottom: 0px;
   display:flex;
   flex-direction: row;
   justify-content:center;
